@@ -1,0 +1,9 @@
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\bin\Debug\netstandard2.0\Identity.Model.deps.json
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\bin\Debug\netstandard2.0\Identity.Model.dll
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\bin\Debug\netstandard2.0\Identity.Model.pdb
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\obj\Debug\netstandard2.0\Identity.Model.csprojAssemblyReference.cache
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\obj\Debug\netstandard2.0\Identity.Model.AssemblyInfoInputs.cache
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\obj\Debug\netstandard2.0\Identity.Model.AssemblyInfo.cs
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\obj\Debug\netstandard2.0\Identity.Model.csproj.CoreCompileInputs.cache
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\obj\Debug\netstandard2.0\Identity.Model.dll
+C:\Users\jules\Documents\school\research_project\project\Identity.Model\obj\Debug\netstandard2.0\Identity.Model.pdb

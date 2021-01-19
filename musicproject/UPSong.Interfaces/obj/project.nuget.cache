@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "3huF2GRn/OAFBpANfR0bTDzxl8T1pld09bQWKog2AaTEZQ0P/vVLGD6+jHnjdVJDXw74+wb7PO506fIlg08b/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric\\7.2.445\\microsoft.servicefabric.7.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.actors\\4.2.445\\microsoft.servicefabric.actors.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.data\\4.2.445\\microsoft.servicefabric.data.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\4.2.445\\microsoft.servicefabric.data.extensions.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\4.2.445\\microsoft.servicefabric.data.interfaces.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\4.2.445\\microsoft.servicefabric.diagnostics.internal.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\4.2.445\\microsoft.servicefabric.fabrictransport.internal.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.services\\4.2.445\\microsoft.servicefabric.services.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\4.2.445\\microsoft.servicefabric.services.remoting.4.2.445.nupkg.sha512",
+    "C:\\Users\\jules\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
