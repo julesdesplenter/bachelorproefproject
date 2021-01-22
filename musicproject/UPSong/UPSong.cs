@@ -42,7 +42,12 @@ namespace UPSong
 
             foreach (string songID in songIDs)
             {
-                await StateManager.RemoveStateAsync(songID);
+               
+                if (songID == song.SongId.ToString())
+                {
+                    await StateManager.RemoveStateAsync(songID);
+
+                }
             }
         }
 

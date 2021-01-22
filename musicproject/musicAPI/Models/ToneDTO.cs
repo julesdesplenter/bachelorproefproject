@@ -9,6 +9,6 @@ namespace musicAPI.Models
     {
         public Guid UserId { get; set; }
        
-        public int Pitch { get; set; }
+        public string Pitch { get; set; }
     }
 }

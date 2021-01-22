@@ -7,3 +7,12 @@ C:\Users\jules\Documents\school\research_project\project\musicproject\UPSong.Int
 C:\Users\jules\Documents\school\research_project\project\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\jules\Documents\school\research_project\project\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.dll
 C:\Users\jules\Documents\school\research_project\project\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.pdb
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\bin\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.deps.json
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\bin\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.dll
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\bin\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.pdb
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.csprojAssemblyReference.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.AssemblyInfoInputs.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.AssemblyInfo.cs
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.dll
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\UPSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\UPSong.Interfaces.pdb

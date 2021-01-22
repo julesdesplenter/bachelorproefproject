@@ -46,7 +46,6 @@ namespace SMSong
                 if (songs.Name == song.Name)
                 {
                     StateManager.RemoveStateAsync(songID);
-
                 }
             }
         }

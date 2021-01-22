@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D4DAy1RGKdMSP5R6joZFG/DzUKP85d02BmKzfEci0tFASnhBfyOdxfcTrbsQ/jOmH3tp9x7NQz/U6RpMsDpXfA==",
+  "dgSpecHash": "TQy4LuOADLnapyL0DrrL/FCVvcsUSXg4obhiOYRBPYMzbugMCtKNn9udRjp7YtNc/3V39wptee3W8Hsh7HUyDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\SMSong\\SMSong.csproj",
+  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\SMSong\\SMSong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric\\7.2.445\\microsoft.servicefabric.7.2.445.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.actors\\4.2.445\\microsoft.servicefabric.actors.4.2.445.nupkg.sha512",

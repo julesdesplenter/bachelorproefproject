@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w4N3CrFZqPg6TvcwsotCcYQbdMmwfyPNGUwcq11zLdBHolFebh2ktjoZGa8GNJtKZFewB3XIvXN0kJctv+cOOQ==",
+  "dgSpecHash": "fp/cXWia5RfK2lCPaOPwFXfK7u/+DoFi1gnQUPhwXkMx3Xh0/CxYTqOVRsepz/EvHaZjBbhxY/X15Y2rK9gbAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\musicAPI\\musicAPI.csproj",
+  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\musicAPI\\musicAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jules\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\azure.storage.blobs\\12.8.0\\azure.storage.blobs.12.8.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dl0/RGPxbdjJvXd5f8IQEBWGEjvp8qWpq7wFk9NetZTQfkPEASYnC7PQomKbvVBINaLWkiBTMwR0u+aOagcgcg==",
+  "dgSpecHash": "3mzQTMB2JNlpfgLoCRenpj2az1d53LR4hmrbT1i2MkYEu145e+sJlBGsO4B3Sz+27YV3EWdIzRIzKdsxyvmxyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong\\UPSong.csproj",
+  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong\\UPSong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric\\7.2.445\\microsoft.servicefabric.7.2.445.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric.actors\\4.2.445\\microsoft.servicefabric.actors.4.2.445.nupkg.sha512",

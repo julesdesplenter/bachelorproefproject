@@ -11890,11 +11890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\musicAPI\\musicAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\musicAPI\\musicAPI.csproj",
       "projectName": "musicAPI",
-      "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\musicAPI\\musicAPI.csproj",
+      "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\musicAPI\\musicAPI.csproj",
       "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\musicAPI\\obj\\",
+      "outputPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\musicAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11913,14 +11913,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj": {
-              "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj"
+            "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj": {
+              "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj"
             },
-            "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\SMSong.Interfaces\\SMSong.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\SMSong.Interfaces\\SMSong.Interfaces.csproj"
+            "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\SMSong.Interfaces\\SMSong.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\SMSong.Interfaces\\SMSong.Interfaces.csproj"
             },
-            "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj"
+            "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj"
             }
           }
         }

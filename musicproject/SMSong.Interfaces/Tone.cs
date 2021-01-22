@@ -7,6 +7,6 @@ namespace SMSong.Interfaces
     public class Tone
     {
         public Guid ToneId { get; set; }
-        public int Pitch { get; set; }
+        public string Pitch { get; set; }
     }
 }

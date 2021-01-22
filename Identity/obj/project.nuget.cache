@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hhShxJH+ec96oezIIAunbYGpH9HanuFmn1SuQpOfXfp7Nm134gLrE8wpaMUSHxaUuDZ3lfcp7ADr3BnH7rJvbw==",
+  "dgSpecHash": "1K1TpLAnf/HxEsCShS5Ip18AQ/aLQN3rM/d+UEAQR5q4e+AAl0GFTfgLKljHHKXy1GWRU+d9+y8xTEi55CbmHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity\\Identity.csproj",
+  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity\\Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jules\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric\\7.2.445\\microsoft.servicefabric.7.2.445.nupkg.sha512",

@@ -10,6 +10,6 @@ namespace UPSong.Interfaces
         public Guid UserId { get; set; }
 
         public string Name { get; set; }
-        public List<Filter> filters { get; set; }
+        public Filter filters { get; set; }
     }
 }

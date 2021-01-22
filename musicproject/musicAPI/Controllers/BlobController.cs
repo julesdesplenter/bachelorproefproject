@@ -34,7 +34,6 @@ namespace ECommerce.API.Controllers
 
 
         // GET api/<BlobController>/5
-        [Authorize]
         [HttpGet("{fileName}")]
         public async Task<IActionResult> DownloadFile(string fileName)
         {
@@ -53,9 +52,13 @@ namespace ECommerce.API.Controllers
                 SongId = Guid.NewGuid(),
                 UserId = UserId,
                 Name = asset.FileName,
-                filters = new List<Filter>()
+                
             };
-            await actor.AddSong(song);
+            if(!(await checkIfExists(song)))
+            {
+                await actor.AddSong(song);
+            }
+            
         }
 
         [Authorize]
@@ -117,7 +120,7 @@ namespace ECommerce.API.Controllers
             {
                 if (song.Name == name)
                 {
-                    song.filters.Add(new Filter
+                    song.filters = (new Filter
                     {
                         FilterId = Guid.NewGuid(),
                         Name = request.Name,
@@ -155,6 +158,20 @@ namespace ECommerce.API.Controllers
             return ActorProxy.Create<IUPSong>(
                 new ActorId(UserId),
                 new Uri("fabric:/musicproject/UPSongActorService"));
+        }
+
+        private async Task<bool> checkIfExists(UPSongClass song)
+        {
+            IUPSong actor = GetActor(song.UserId);
+            UPSongClass[] songs = await actor.GetAllSongs(song.UserId);
+            foreach (UPSongClass item in songs)
+            {
+                if(item.Name == song.Name)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity\\Identity.csproj": {}
+    "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity\\Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj": {
+    "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj",
+        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj",
         "projectName": "Identity.Model",
-        "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj",
+        "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj",
         "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\obj\\",
+        "outputPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity\\Identity.csproj": {
+    "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity\\Identity.csproj",
+        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity\\Identity.csproj",
         "projectName": "Identity",
-        "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity\\Identity.csproj",
+        "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity\\Identity.csproj",
         "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity\\obj\\",
+        "outputPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj": {
-                "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj"
+              "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj": {
+                "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj"
               }
             }
           }

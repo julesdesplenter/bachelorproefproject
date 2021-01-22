@@ -1041,11 +1041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj",
+      "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj",
       "projectName": "Identity.Model",
-      "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj",
+      "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj",
       "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\obj\\",
+      "outputPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",

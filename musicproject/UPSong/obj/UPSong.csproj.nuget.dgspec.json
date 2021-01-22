@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong\\UPSong.csproj": {}
+    "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong\\UPSong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj": {
+    "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj",
         "projectName": "UPSong.Interfaces",
-        "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj",
+        "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj",
         "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong\\UPSong.csproj": {
+    "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong\\UPSong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong\\UPSong.csproj",
+        "projectUniqueName": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong\\UPSong.csproj",
         "projectName": "UPSong",
-        "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong\\UPSong.csproj",
+        "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong\\UPSong.csproj",
         "packagesPath": "C:\\Users\\jules\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong\\obj\\",
+        "outputPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj"
+              "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\musicproject\\UPSong.Interfaces\\UPSong.Interfaces.csproj"
               }
             }
           }

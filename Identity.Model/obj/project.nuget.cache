@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k7/lJpiKDpDhFn4eiVm/A73kZbRRg5HDStbJB6kGdQe7WYNCJwwJLQTYXItWmp2c2lwYdUz+Kpqs9OJYMpE1iA==",
+  "dgSpecHash": "gDJ+mpua6A0StHGScrHLjsdLkYL0atBdUlW0BQdEZ8EdxzePXhDpCHyJp1w3+5PjF2xTpaxV3hptLwh8qp6evQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\research_project\\project\\Identity.Model\\Identity.Model.csproj",
+  "projectFilePath": "C:\\Users\\jules\\Documents\\school\\bachelorproefproject\\Identity.Model\\Identity.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jules\\.nuget\\packages\\microsoft.servicefabric\\7.2.445\\microsoft.servicefabric.7.2.445.nupkg.sha512",

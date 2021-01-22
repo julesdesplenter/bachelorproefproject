@@ -150,15 +150,19 @@ namespace musicAPI.Controllers
                     {
                         if(instrument.InstrumentId == instrumentId)
                         {
-                            instrument.Positions.Add(new Position
+                            if(!checkIfalreadyContains(instrument.Positions, request.Place))
                             {
-                                PositionID = Guid.NewGuid(),
-                                Length = request.Length,
-                                Place = request.Place,
-                                Tones = new List<Tone>()
-                            });
-                            await actor.EditSong(song);
-                            return Ok("updated position");
+                                instrument.Positions.Add(new Position
+                                {
+                                    PositionID = Guid.NewGuid(),
+                                    Length = request.Length,
+                                    Place = request.Place,
+                                    Tones = new List<Tone>()
+                                });
+                                await actor.EditSong(song);
+                                return Ok("updated position");
+                            }
+                            return Ok("postion already existed");
                         }
                     }
                 }
@@ -167,8 +171,42 @@ namespace musicAPI.Controllers
         }
 
         [Authorize]
-        [HttpPost("AddTone/{songName}/{instrumentId}/{positionId}")]
-        public async Task<ObjectResult> AddTone([FromBody] ToneDTO request, string songName, Guid instrumentId, Guid positionId)
+        [HttpPost("ChangePosition/{songName}/{instrumentId}")]
+        public async Task<ObjectResult> ChangePosition([FromBody] positionDTO request, string songName, Guid instrumentId)
+        {
+
+            ISMSong actor = GetActor(request.UserId);
+            SMSongClass[] songs = await actor.GetSongs(request.UserId);
+            SMSongClass result = new SMSongClass();
+            foreach (SMSongClass song in songs)
+            {
+                if (song.Name == songName)
+                {
+                    foreach (Instrument instrument in song.Instruments)
+                    {
+                        if (instrument.InstrumentId == instrumentId)
+                        {
+                            foreach(Position position in instrument.Positions)
+                            {
+                                if(position.Place == request.Place)
+                                {
+                                    position.Length = request.Length;
+                                    await actor.EditSong(song);
+                                    return Ok("length updated");
+                                }
+                                
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            return BadRequest("position added failed");
+        }
+
+        [Authorize]
+        [HttpPost("AddTone/{songName}/{instrumentId}/{place}")]
+        public async Task<ObjectResult> AddTone([FromBody] ToneDTO request, string songName, Guid instrumentId, int place)
         {
 
             ISMSong actor = GetActor(request.UserId);
@@ -184,7 +222,7 @@ namespace musicAPI.Controllers
                         {
                            foreach(Position position in instrument.Positions)
                             {
-                                if(position.PositionID == positionId)
+                                if(position.Place == place)
                                 {
                                     position.Tones.Add(new Tone
                                     {
@@ -202,11 +240,68 @@ namespace musicAPI.Controllers
             return BadRequest("tone added failed");
         }
 
+        [Authorize]
+        [HttpPost("RemoveTone/{songName}/{instrumentId}/{place}")]
+        public async Task<ObjectResult> RemoveTone([FromBody] ToneDTO request, string songName, Guid instrumentId, int place)
+        {
+
+            ISMSong actor = GetActor(request.UserId);
+            SMSongClass[] songs = await actor.GetSongs(request.UserId);
+            SMSongClass result = new SMSongClass();
+            foreach (SMSongClass song in songs)
+            {
+                if (song.Name == songName)
+                {
+                    foreach (Instrument instrument in song.Instruments)
+                    {
+                        if (instrument.InstrumentId == instrumentId)
+                        {
+                            foreach (Position position in instrument.Positions)
+                            {
+                                if (position.Place == place)
+                                {
+                                    Tone tone = searchtone(position.Tones, request.Pitch);
+                                    position.Tones.Remove(tone);
+                                    await actor.EditSong(song);
+                                    return Ok("removed tone");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return BadRequest("tone removed failed");
+        }
+
         private ISMSong GetActor(Guid UserId)
         {
             return ActorProxy.Create<ISMSong>(
                 new ActorId(UserId),
                 new Uri("fabric:/musicproject/SMSongActorService"));
+        }
+
+        private bool checkIfalreadyContains(List<Position> lst, int place)
+        {
+            foreach(Position p in lst)
+            {
+                if(p.Place == place)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private Tone searchtone(List<Tone> lst, string tone)
+        {
+            foreach(Tone t in lst)
+            {
+                if(t.Pitch == tone)
+                {
+                    return t;
+                }
+            };
+            return new Tone();
         }
     }
 }

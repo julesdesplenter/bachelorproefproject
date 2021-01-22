@@ -1,1 +1,2 @@
 C:\Users\jules\Documents\school\research_project\project\musicproject\obj\x64\Debug\musicproject.sfproj.CoreCompileInputs.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\obj\x64\Debug\musicproject.sfproj.CoreCompileInputs.cache
