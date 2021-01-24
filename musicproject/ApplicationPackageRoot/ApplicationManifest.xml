@@ -3,15 +3,15 @@
   <Parameters>
     <Parameter Name="musicAPI_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
     <Parameter Name="musicAPI_InstanceCount" DefaultValue="-1" />
-    <Parameter Name="Identity_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="Identity_MinReplicaSetSize" DefaultValue="2" />
     <Parameter Name="Identity_PartitionCount" DefaultValue="1" />
-    <Parameter Name="Identity_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="Identity_TargetReplicaSetSize" DefaultValue="2" />
     <Parameter Name="SMSongActorService_PartitionCount" DefaultValue="10" />
-    <Parameter Name="SMSongActorService_MinReplicaSetSize" DefaultValue="3" />
-    <Parameter Name="SMSongActorService_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="SMSongActorService_MinReplicaSetSize" DefaultValue="2" />
+    <Parameter Name="SMSongActorService_TargetReplicaSetSize" DefaultValue="2" />
     <Parameter Name="UPSongActorService_PartitionCount" DefaultValue="10" />
-    <Parameter Name="UPSongActorService_MinReplicaSetSize" DefaultValue="3" />
-    <Parameter Name="UPSongActorService_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="UPSongActorService_MinReplicaSetSize" DefaultValue="2" />
+    <Parameter Name="UPSongActorService_TargetReplicaSetSize" DefaultValue="2" />
   </Parameters>
   <!-- Import the ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
        should match the Name and Version attributes of the ServiceManifest element defined in the 
@@ -45,7 +45,7 @@
       </StatelessService>
     </Service>
     <Service Name="Identity" ServicePackageActivationMode="ExclusiveProcess">
-      <StatefulService ServiceTypeName="IdentityType" TargetReplicaSetSize="[Identity_TargetReplicaSetSize]" MinReplicaSetSize="[Identity_MinReplicaSetSize]">
+      <StatefulService ServiceTypeName="IdentityType" TargetReplicaSetSize="2" MinReplicaSetSize="2">
         <UniformInt64Partition PartitionCount="[Identity_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
       </StatefulService>
     </Service>

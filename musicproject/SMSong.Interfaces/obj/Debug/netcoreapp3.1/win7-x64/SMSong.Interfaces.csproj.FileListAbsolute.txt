@@ -7,3 +7,12 @@ C:\Users\jules\Documents\school\research_project\project\musicproject\SMSong.Int
 C:\Users\jules\Documents\school\research_project\project\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\jules\Documents\school\research_project\project\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.dll
 C:\Users\jules\Documents\school\research_project\project\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.pdb
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\bin\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.deps.json
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\bin\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.dll
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\bin\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.pdb
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.csprojAssemblyReference.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.AssemblyInfoInputs.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.AssemblyInfo.cs
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.dll
+C:\Users\jules\Documents\school\bachelorproefproject\musicproject\SMSong.Interfaces\obj\Debug\netcoreapp3.1\win7-x64\SMSong.Interfaces.pdb

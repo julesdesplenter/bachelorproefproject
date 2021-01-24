@@ -20,7 +20,7 @@
                                     AzureActiveDirectory="true"
                                     ServerCertThumbprint="0123456789012345678901234567890123456789" />
   -->
-  <ClusterConnectionParameters ConnectionEndpoint="" />
+  <ClusterConnectionParameters ConnectionEndpoint="music01bronze.westeurope.cloudapp.azure.com:19000" X509Credential="true" ServerCertThumbprint="7D369DC41056ABA36C0DD85BC1004457B0902C29" FindType="FindByThumbprint" FindValue="7D369DC41056ABA36C0DD85BC1004457B0902C29" StoreLocation="CurrentUser" StoreName="My" />
   <ApplicationParameterFile Path="..\ApplicationParameters\Cloud.xml" />
   <CopyPackageParameters CompressPackage="true" />
 </PublishProfile>
