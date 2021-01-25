@@ -23,26 +23,12 @@ namespace ECommerce.API.Services
         public async Task<Stream> GetBlobAsync(string name)
         {
             MemoryStream ms = new MemoryStream();
-            var containerClient = blobServiceClient.GetBlobContainerClient("songs");
-            //if (await containerClient.ExistsAsync())
-            //{
-                var client = containerClient.GetBlobClient(name);
-
-                //if (await client.ExistsAsync())
-                //{
-                    await client.DownloadToAsync(ms);
-                    Stream blobStream = client.OpenReadAsync().Result;
-                    return blobStream;
-            //    }
-            //    else
-            //    {
-            //        //return Content("File does not exist");
-            //    }
-            //}
-            //else
-            //{
-            //    //return Content("Container does not exist");
-            //}
+            var containerClient = blobServiceClient.GetBlobContainerClient("songs");          
+            var client = containerClient.GetBlobClient(name);
+            await client.DownloadToAsync(ms);
+            Stream blobStream = client.OpenReadAsync().Result;
+            return blobStream;
+  
         }
 
         public async Task<IEnumerable<string>> ListBlobAsync()
