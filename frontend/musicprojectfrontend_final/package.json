@@ -1,0 +1,39 @@
+{
+  "name": "musicprojectfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@types/sleep": "0.0.8",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
+    "mp3-cutter": "^1.0.6",
+    "postcss": "^7.0.35",
+    "register-service-worker": "^1.7.1",
+    "sleep": "^6.3.0",
+    "sleep-promise": "^9.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "tone": "^14.7.77",
+    "vue": "^3.0.5",
+    "vue-class-component": "^8.0.0-0",
+    "vue-cli-plugin-tailwind": "^2.0.1",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-pwa": "^4.5.11",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "typescript": "~3.9.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
